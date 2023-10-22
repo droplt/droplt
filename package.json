@@ -10,15 +10,15 @@
     "style": "prettier --check \"**/*.{ts,tsx,md,json}\""
   },
   "devDependencies": {
-    "@commitlint/cli": "17.8.0",
-    "@commitlint/config-conventional": "17.8.0",
+    "@commitlint/cli": "18.0.0",
+    "@commitlint/config-conventional": "18.0.0",
     "@droplt/tsconfig": "workspace:*",
-    "eslint": "8.51.0",
+    "eslint": "8.52.0",
     "husky": "8.0.3",
-    "lint-staged": "15.0.1",
+    "lint-staged": "15.0.2",
     "prettier": "3.0.3",
     "prettier-plugin-packagejson": "2.4.6",
-    "turbo": "latest"
+    "turbo": "1.10.16"
   },
   "packageManager": "pnpm@8.6.10"
 }
