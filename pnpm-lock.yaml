@@ -14,6 +14,9 @@ importers:
       '@commitlint/config-conventional':
         specifier: 17.8.0
         version: 17.8.0
+      '@droplt/tsconfig':
+        specifier: workspace:*
+        version: link:packages/tsconfig
       eslint:
         specifier: 8.51.0
         version: 8.51.0
@@ -29,9 +32,6 @@ importers:
       prettier-plugin-packagejson:
         specifier: 2.4.6
         version: 2.4.6(prettier@3.0.3)
-      tsconfig:
-        specifier: workspace:*
-        version: link:packages/tsconfig
       turbo:
         specifier: latest
         version: 1.10.15
@@ -51,6 +51,9 @@ importers:
         specifier: workspace:*
         version: link:../../packages/ui
     devDependencies:
+      '@droplt/tsconfig':
+        specifier: workspace:*
+        version: link:../../packages/tsconfig
       '@next/eslint-plugin-next':
         specifier: ^13.4.19
         version: 13.4.19
@@ -66,9 +69,6 @@ importers:
       eslint-config-custom:
         specifier: workspace:*
         version: link:../../packages/eslint-config-custom
-      tsconfig:
-        specifier: workspace:*
-        version: link:../../packages/tsconfig
       typescript:
         specifier: ^4.5.3
         version: 4.9.5
@@ -88,6 +88,9 @@ importers:
         specifier: workspace:*
         version: link:../../packages/ui
     devDependencies:
+      '@droplt/tsconfig':
+        specifier: workspace:*
+        version: link:../../packages/tsconfig
       '@next/eslint-plugin-next':
         specifier: ^13.4.19
         version: 13.4.19
@@ -103,9 +106,6 @@ importers:
       eslint-config-custom:
         specifier: workspace:*
         version: link:../../packages/eslint-config-custom
-      tsconfig:
-        specifier: workspace:*
-        version: link:../../packages/tsconfig
       typescript:
         specifier: ^4.5.3
         version: 4.9.5
@@ -126,6 +126,9 @@ importers:
 
   packages/ui:
     devDependencies:
+      '@droplt/tsconfig':
+        specifier: workspace:*
+        version: link:../tsconfig
       '@turbo/gen':
         specifier: ^1.10.12
         version: 1.10.12(@types/node@20.5.2)(typescript@4.9.5)
@@ -144,9 +147,6 @@ importers:
       react:
         specifier: ^18.2.0
         version: 18.2.0
-      tsconfig:
-        specifier: workspace:*
-        version: link:../tsconfig
       typescript:
         specifier: ^4.5.2
         version: 4.9.5
